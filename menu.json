@@ -1,0 +1,773 @@
+{
+    "breakfast": [
+        {
+            "name": {
+                "en": "Normal Full",
+                "am": "መደበኛ ፉል",
+                "om": "Fuulii Normaalii"
+            },
+            "price": 150,
+            "image": "images/breakfast/normal-full.jpg"
+        },
+        {
+            "name": {
+                "en": "Avocado Full",
+                "am": "አቮካዶ ፉል",
+                "om": "Fuulii Avokaadoo"
+            },
+            "price": 160,
+            "image": "images/breakfast/avocado-full.jpg"
+        },
+        {
+            "name": {
+                "en": "Special Full",
+                "am": "እስፔሻል ፉል",
+                "om": "Fuulii Ispeeshaalii"
+            },
+            "price": 200,
+            "image": "images/breakfast/special-full.jpg"
+        },
+        {
+            "name": {
+                "en": "Fasting Chachebsa",
+                "am": "የጾም ጨጨብሳ",
+                "om": "Caccabsaa Soomaa"
+            },
+            "price": 150,
+            "image": "images/breakfast/fasting-chachebsa.jpg"
+        },
+        {
+            "name": {
+                "en": "Special Chachebsa",
+                "am": "እስፔሻል ጨጨብሳ",
+                "om": "Caccabsaa Ispeeshaalii"
+            },
+            "price": 160,
+            "image": "images/breakfast/special-chachebsa.jpg"
+        },
+        {
+            "name": {
+                "en": "Egg with Avocado",
+                "am": "እንቁላል ከአቮካዶ ጋር",
+                "om": "Killee Avokaadoo waliin"
+            },
+            "price": 150,
+            "image": "images/breakfast/egg-with-avocado.jpg"
+        },
+        {
+            "name": {
+                "en": "Egg Firfir",
+                "am": "እንቁላል ፍርፍር",
+                "om": "Firfirii killee"
+            },
+            "price": 150,
+            "image": "images/breakfast/egg-firfir.jpg"
+        },
+        {
+            "name": {
+                "en": "Special Firfir",
+                "am": "እስፔሻል ፍርፍር",
+                "om": "Firfirii Ispeeshaalii"
+            },
+            "price": 270,
+            "image": "images/breakfast/special-firfir.jpg"
+        },
+        {
+            "name": {
+                "en": "Fasting Firfir",
+                "am": "የጾም ፍርፍር",
+                "om": "Firfirii Soomaa"
+            },
+            "price": 150,
+            "image": "images/breakfast/fasting-firfir.jpg"
+        },
+        {
+            "name": {
+                "en": "Special Omelet",
+                "am": "እስፔሻል ኦምሌት",
+                "om": "Oomeleetii Ispeeshaalii"
+            },
+            "price": 250,
+            "image": "images/breakfast/special-omelet.jpg"
+        },
+        {
+            "name": {
+                "en": "Normal Omelet",
+                "am": "መደበኛ ኦምሌት",
+                "om": "Oomeleetii Normaalii"
+            },
+            "price": 150,
+            "image": "images/breakfast/normal-omelet.jpg"
+        },
+        {
+            "name": {
+                "en": "Pan Cake",
+                "am": "ፓንኬክ",
+                "om": "Paankeekii"
+            },
+            "price": 200,
+            "image": "images/breakfast/pan-cake.jpg"
+        },
+        {
+            "name": {
+                "en": "Humita Firfir",
+                "am": "ሁሚታ ፍርፍር",
+                "om": "Firfirii Humitaa"
+            },
+            "price": 250,
+            "image": "images/breakfast/humita-firfir.jpg"
+        },
+        {
+            "name": {
+                "en": "Normal Firfir",
+                "am": "መደበኛ ፍርፍር",
+                "om": "Firfirii Normaalii"
+            },
+            "price": 180,
+            "image": "images/breakfast/normal-firfir.jpg"
+        },
+        {
+            "name": {
+                "en": "Beef Firfir",
+                "am": "ስጋ ፍርፍር",
+                "om": "Firfirii Foonii"
+            },
+            "price": 250,
+            "image": "images/breakfast/beef-firfir.jpg"
+        },
+        {
+            "name": {
+                "en": "French Toast",
+                "am": "ፈረንሳይ ቶስት",
+                "om": "Firaanchii Toostii"
+            },
+            "price": 150,
+            "image": "images/breakfast/french-toast.jpg"
+        },
+        {
+            "name": {
+                "en": "Egg silse",
+                "am": "እንቁላል ሲልሲ",
+                "om": "Silsi Timaatimaa"
+            },
+            "price": 250,
+            "image": "images/breakfast/egg-silse.jpg"
+        }
+    ],
+    "salad": [
+        {
+            "name": {
+                "en": "Mixed Salad",
+                "am": "የተቀላቀለ ሰላጣ",
+                "om": "Sallaxaa Walmakaa"
+            },
+            "price": 220,
+            "image": "images/salad/mixed-salad.jpg"
+        },
+        {
+            "name": {
+                "en": "Fruit Salad",
+                "am": "የፍራፍሬ ሰላጣ",
+                "om": "Sallaxaa Fuduraa"
+            },
+            "price": 220,
+            "image": "images/salad/fruit-salad.jpg"
+        },
+        {
+            "name": {
+                "en": "Tuna Salad",
+                "am": "የቱና ሰላጣ",
+                "om": "Sallaxaa Tuuna"
+            },
+            "price": 260,
+            "image": "images/salad/tuna-salad.jpg"
+        },
+        {
+            "name": {
+                "en": "Chicken Salad",
+                "am": "የዶሮ ሰላጣ",
+                "om": "Sallaxaa Lukkuu"
+            },
+            "price": 260,
+            "image": "images/salad/chicken-salad.jpg"
+        }
+    ],
+    "chicken": [
+        {
+            "name": {
+                "en": "Chicken Combo",
+                "am": "የዶሮ ኮምቦ",
+                "om": "Komboo Lukkuu"
+            },
+            "price": 380,
+            "image": "images/chicken/chicken-combo.jpg"
+        },
+        {
+            "name": {
+                "en": "Chicken Wing",
+                "am": "የዶሮ ክንፍ",
+                "om": "Kochoo Lukkuu"
+            },
+            "price": 350,
+            "image": "images/chicken/chicken-wing.jpg"
+        },
+        {
+            "name": {
+                "en": "Chicken Leg",
+                "am": "የዶሮ እግር",
+                "om": "Miila Lukkuu"
+            },
+            "price": 400,
+            "image": "images/chicken/chicken-leg.jpg"
+        }
+    ],
+    "burger": [
+        {
+            "name": {
+                "en": "Normal Burger",
+                "am": "መደበኛ በርገር",
+                "om": "Bargarii Normaalii"
+            },
+            "price": 250,
+            "image": "images/burger/normal-burger.jpg"
+        },
+        {
+            "name": {
+                "en": "Cheese Burger",
+                "am": "ቺዝ በርገር",
+                "om": "Bargarii Baadduu"
+            },
+            "price": 250,
+            "image": "images/burger/cheese-burger.jpg"
+        },
+        {
+            "name": {
+                "en": "Special Burger",
+                "am": "እስፔሻል በርገር",
+                "om": "Bargarii Ispeeshaalii"
+            },
+            "price": 380,
+            "image": "images/burger/special-burger.jpg"
+        },
+        {
+            "name": {
+                "en": "King Size Burger",
+                "am": "ኪንግ ሳይዝ በርገር",
+                "om": "Bargarii Hamma Guddaa (King Size)"
+            },
+            "price": 380,
+            "image": "images/burger/king-size-burger.jpg"
+        },
+        {
+            "name": {
+                "en": "Chips",
+                "am": "ቺፕስ (ድንች ተጠብሶ)",
+                "om": "Chiipsii"
+            },
+            "price": 200,
+            "image": "images/burger/chips.jpg"
+        }
+    ],
+    "sandwich": [
+        {
+            "name": {
+                "en": "Chicken Sandwich",
+                "am": "የዶሮ ሳንድዊች",
+                "om": "Saandwiichii Lukkuu"
+            },
+            "price": 250,
+            "image": "images/sandwich/chicken-sandwich.jpg"
+        },
+        {
+            "name": {
+                "en": "Special Sandwich",
+                "am": "ልዩ ሳንድዊች",
+                "om": "Saandwiichii Ispeeshaalii"
+            },
+            "price": 250,
+            "image": "images/sandwich/special-sandwich.jpg"
+        },
+        {
+            "name": {
+                "en": "Vegetable Sandwich",
+                "am": "የአትክልት ሳንድዊች",
+                "om": "Saandwiichii Kuduraa"
+            },
+            "price": 160,
+            "image": "images/sandwich/vegetable-sandwich.jpg"
+        },
+        {
+            "name": {
+                "en": "Fish Sandwich",
+                "am": "የአሳ ሳንድዊች",
+                "om": "Saandwiichii Qurxummii"
+            },
+            "price": 250,
+            "image": "images/sandwich/fish-sandwich.jpg"
+        },
+        {
+            "name": {
+                "en": "Egg Sandwich",
+                "am": "የእንቁላል ሳንድዊች",
+                "om": "Saandwiichii killee"
+            },
+            "price": 160,
+            "image": "images/sandwich/egg-sandwich.jpg"
+        },
+        {
+            "name": {
+                "en": "Tuna Sandwich",
+                "am": "የቱና ሳንድዊች",
+                "om": "Saandwiichii Tuuna"
+            },
+            "price": 250,
+            "image": "images/sandwich/tuna-sandwich.jpg"
+        },
+        {
+            "name": {
+                "en": "Club Sandwich",
+                "am": "ክለብ ሳንድዊች",
+                "om": "Saandwiichii Kilaabii"
+            },
+            "price": 300,
+            "image": "images/sandwich/club-sandwich.jpg"
+        }
+    ],
+    "pizza": [
+        {
+            "name": {
+                "en": "Special Pizza",
+                "am": "ልዩ ፒዛ",
+                "om": "Piizaa Addaa"
+            },
+            "price": 420,
+            "image": "images/pizza/Special-pizza.jpg"
+        },
+        {
+            "name": {
+                "en": "Volcano Pizza",
+                "am": "ቮልኬኖ ፒዛ",
+                "om": "Piizaa Volkaanoo"
+            },
+            "price": 450,
+            "image": "images/pizza/Volcano-pizza.jpg"
+        },
+        {
+            "name": {
+                "en": "Chicken Pizza",
+                "am": "የዶሮ ፒዛ",
+                "om": "Piizaa Lukkuu"
+            },
+            "price": 350,
+            "image": "images/pizza/Chicken-pizza.jpg"
+        },
+        {
+            "name": {
+                "en": "Tuna Pizza With Cheese",
+                "am": "የቱና ፒዛ (ቺዝ ጋር)",
+                "om": "Piizaa Tuuna (Baadduu Waliin)"
+            },
+            "price": 350,
+            "image": "images/pizza/Tuna-pizza-with-cheese.jpg"
+        },
+        {
+            "name": {
+                "en": "Beef Pizza",
+                "am": "የሥጋ ፒዛ",
+                "om": "Piizaa Foonii"
+            },
+            "price": 350,
+            "image": "images/pizza/beef-pizza.jpg"
+        },
+        {
+            "name": {
+                "en": "Vegetable Pizza",
+                "am": "የአትክልት ፒዛ",
+                "om": "Piizaa Kuduraa"
+            },
+            "price": 300,
+            "image": "images/pizza/vegetable-pizza.jpg"
+        },
+        {
+            "name": {
+                "en": "Vegetable Pizza With Tuna",
+                "am": "የአትክልት ፒዛ ከቱና ጋር",
+                "om": "Piizaa Kuduraa Tuuna Waliin"
+            },
+            "price": 300,
+            "image": "images/pizza/vegetable-pizza-tuna.jpg"
+        },
+        {
+            "name": {
+                "en": "Margarita Pizza",
+                "am": "ማርጋሪታ ፒዛ",
+                "om": "Piizaa Maargariitaa"
+            },
+            "price": 250,
+            "image": "images/pizza/margarita-pizza.jpg"
+        }
+    ],
+    "fish": [
+        {
+            "name": {
+                "en": "Fish Goulash",
+                "am": "የአሳ ጉላሽ",
+                "om": "Gulaashii Qurxummii"
+            },
+            "price": 350,
+            "image": "images/fish/fish-goulash.jpg"
+        },
+        {
+            "name": {
+                "en": "Chicken Fish",
+                "am": "ዶሮ አሳ",
+                "om": "Qurxummii Lukkuu"
+            },
+            "price": 300,
+            "image": "images/fish/chicken-fish.jpg"
+        },
+        {
+            "name": {
+                "en": "Fish Finger",
+                "am": "የአሳ ፊንገር",
+                "om": "Fiingerii Qurxummii"
+            },
+            "price": 300,
+            "image": "images/fish/fish-finger.jpg"
+        },
+        {
+            "name": {
+                "en": "Fish Lebleb",
+                "am": "የአሳ ለብለብ",
+                "om": "Labilabbii Qurxummii"
+            },
+            "price": 300,
+            "image": "images/fish/fish-lebleb.jpg"
+        },
+        {
+            "name": {
+                "en": "Fasting Combo Fish",
+                "am": "የጾም የአሳ ኮምቦ",
+                "om": "Komboo Qurxummii Soomaa"
+            },
+            "price": 210,
+            "image": "images/fish/fastin-combo-fish.jpg"
+        }
+    ],
+    "rice": [
+        {
+            "name": {
+                "en": "Rice Vegetable",
+                "am": "ሩዝ ከአትክልት ጋር",
+                "om": "Ruuzii Kuduraa Waliin"
+            },
+            "price": 200,
+            "image": "images/rice/rice-vegetable.jpg"
+        },
+        {
+            "name": {
+                "en": "Rice Tomato",
+                "am": "ሩዝ በቲማቲም",
+                "om": "Ruuzii Timaatimii"
+            },
+            "price": 250,
+            "image": "images/rice/rice-tomato.jpg"
+        },
+        {
+            "name": {
+                "en": "Rice Meat",
+                "am": "ሩዝ ከሥጋ ጋር",
+                "om": "Ruuzii Foonii"
+            },
+            "price": 250,
+            "image": "images/rice/rice-meat.jpg"
+        },
+        {
+            "name": {
+                "en": "Rice with Chicken",
+                "am": "ሩዝ ከዶሮ ጋር",
+                "om": "Ruuzii Lukkuu Waliin"
+            },
+            "price": 250,
+            "image": "images/rice/rice-chicken.jpg"
+        },
+        {
+            "name": {
+                "en": "Rice Tuna",
+                "am": "ሩዝ ከቱና ጋር",
+                "om": "Ruuzii Tuuna"
+            },
+            "price": 250,
+            "image": "images/rice/rice-tuna.jpg"
+        }
+    ],
+    "spaghetti": [
+        {
+            "name": {
+                "en": "Spaghetti with Tomato Sauce",
+                "am": "ፓስታ በቲማቲም ሶስ",
+                "om": "Paastaa Soosii Timaatimii"
+            },
+            "price": 250,
+            "image": "images/spaghetti/spaghetti-tomato-sauce.jpg"
+        },
+        {
+            "name": {
+                "en": "Spaghetti Tomato Cream Sauce",
+                "am": "ፓስታ በቲማቲም ክሬም ሶስ",
+                "om": "Paastaa Soosii Timaatimii Kireemii"
+            },
+            "price": 250,
+            "image": "images/spaghetti/spaghetti-tomato-cream-sauce.jpg"
+        },
+        {
+            "name": {
+                "en": "Spaghetti Chicken Sauce",
+                "am": "ፓስታ በዶሮ ሶስ",
+                "om": "Paastaa Soosii Lukkuu"
+            },
+            "price": 350,
+            "image": "images/spaghetti/spaghetti-chicken-sauce.jpg"
+        },
+        {
+            "name": {
+                "en": "Spaghetti Chicken Cream",
+                "am": "ፓስታ በዶሮ ክሬም",
+                "om": "Paastaa Lukkuu Kireemii"
+            },
+            "price": 350,
+            "image": "images/spaghetti/spaghetti-chicken-cream.jpg"
+        }
+    ],
+    "hot-drinks": [
+        {
+            "name": {
+                "en": "Tea",
+                "am": "ሻይ",
+                "om": "Shaayii"
+            },
+            "price": 25,
+            "image": "images/hot-drinks/tea.jpg"
+        },
+        {
+            "name": {
+                "en": "Coffee",
+                "am": "ቡና",
+                "om": "Bunaa"
+            },
+            "price": 60,
+            "image": "images/hot-drinks/coffee.jpg"
+        },
+        {
+            "name": {
+                "en": "Macchiato",
+                "am": "ማኪያቶ",
+                "om": "Maakiyaatoo"
+            },
+            "price": 70,
+            "image": "images/hot-drinks/macchiato.jpg"
+        },
+        {
+            "name": {
+                "en": "Milk",
+                "am": "ወተት",
+                "om": "Aannan"
+            },
+            "price": 60,
+            "image": "images/hot-drinks/milk.jpg"
+        },
+        {
+            "name": {
+                "en": "Fasting Macchiato",
+                "am": "የጾም ማኪያቶ",
+                "om": "Maakiyaatoo Soomaa"
+            },
+            "price": 70,
+            "image": "images/hot-drinks/fasting-macchiato.jpg"
+        },
+        {
+            "name": {
+                "en": "Cappuccino",
+                "am": "ካፑቺኖ",
+                "om": "Kaappuchiinnoo"
+            },
+            "price": 70,
+            "image": "images/hot-drinks/cappuccino.jpg"
+        },
+        {
+            "name": {
+                "en": "Hot Chocolate",
+                "am": "ሞቃት ቸኮሌት",
+                "om": "Chokoleetii Ho’aa"
+            },
+            "price": 70,
+            "image": "images/hot-drinks/chocolate.jpg"
+        },
+        {
+            "name": {
+                "en": "Flavour Tea",
+                "am": "የተቀመመ ሻይ",
+                "om": "Shaayii Fileevaarii"
+            },
+            "price": 70,
+            "image": "images/hot-drinks/flavour-tea.jpg"
+        },
+        {
+            "name": {
+                "en": "Spice Tea",
+                "am": "እስፔሻል  ሻይ (ትልቅ)",
+                "om": "Shaayii Ispeeshaalii Guddaa"
+            },
+            "price": 50,
+            "image": "images/hot-drinks/spice-tea.jpg"
+        },
+        {
+            "name": {
+                "en": "Special Tea Big",
+                "am": "እስፔሻል  ሻይ (ትልቅ)",
+                "om": "Shaayii Ispeeshaalii Guddaa"
+            },
+            "price": 100,
+            "image": "images/hot-drinks/special-tea-big.jpg"
+        },
+        {
+            "name": {
+                "en": "Special Tea Small",
+                "am": "እስፔሻል ሻይ (ትንሽ)",
+                "om": "Shaayii Ispeeshaalii Xiqqaa"
+            },
+            "price": 70,
+            "image": "images/hot-drinks/special-tea-small.jpg"
+        }
+    ],
+    "juice": [
+        {
+            "name": {
+                "en": "Special Juice",
+                "am": "እስፔሻል ጭማቂ",
+                "om": "Cuunfaa Ispeeshaalii"
+            },
+            "price": 300,
+            "image": "images/juice/special-juice.jpg"
+        },
+        {
+            "name": {
+                "en": "Mango Juice",
+                "am": "የማንጎ ጭማቂ",
+                "om": "Cuunfaa Maangoo"
+            },
+            "price": 280,
+            "image": "images/juice/mango-juice.jpg"
+        },
+        {
+            "name": {
+                "en": "Papaya Juice",
+                "am": "የፓፓያ ጭማቂ",
+                "om": "Cuunfaa Paappaayaa"
+            },
+            "price": 280,
+            "image": "images/juice/papaya-juice.jpg"
+        },
+        {
+            "name": {
+                "en": "Sprite Juice",
+                "am": "ስፕራይስ ጭማቂ",
+                "om": "Cuunfaa Ispiriisii"
+            },
+            "price": 290,
+            "image": "images/juice/sprite-juice.jpg"
+        },
+        {
+            "name": {
+                "en": "Banana Juice",
+                "am": "የሙዝ ጭማቂ",
+                "om": "Cuunfaa Muuzii"
+            },
+            "price": 270,
+            "image": "images/juice/banana-juice.jpg"
+        },
+        {
+            "name": {
+                "en": "Strawberry Juice",
+                "am": "የስትሮቤሪ ጭማቂ",
+                "om": "Cuunfaa Istiroobarii"
+            },
+            "price": 290,
+            "image": "images/juice/strawberry-juice.jpg"
+        },
+        {
+            "name": {
+                "en": "Fasting Special Juice",
+                "am": "የጾም እስፔሻል ጭማቂ",
+                "om": "Cuunfaa Ispeeshaalii Soomaa"
+            },
+            "price": 290,
+            "image": "images/juice/fasting-special-juice.jpg"
+        }
+    ],
+    "soft-drinks": [
+        {
+            "name": {
+                "en": "Soft Drink",
+                "am": "ለስላሳ መጠጦች",
+                "om": "Dhugaatii Lalaafaa"
+            },
+            "price": 50,
+            "image": "images/soft-drinks/soft-drink.jpg"
+        },
+        {
+            "name": {
+                "en": "Ambo Water",
+                "am": "አምቦ ውሃ",
+                "om": "Bishaan Aamboo"
+            },
+            "price": 40,
+            "image": "images/soft-drinks/ambo-water.jpg"
+        },
+        {
+            "name": {
+                "en": "1/2 L Water",
+                "am": "ግማሽ ሊትር ውሃ",
+                "om": "Bishaan Liitira ½"
+            },
+            "price": 30,
+            "image": "images/soft-drinks/half-l-water.jpg"
+        },
+        {
+            "name": {
+                "en": "1 L Water",
+                "am": "1 ሊትር ውሃ",
+                "om": "Bishaan Liitira 1"
+            },
+            "price": 35,
+            "image": "images/soft-drinks/one-l-water.jpg"
+        },
+        {
+            "name": {
+                "en": "2 L Water",
+                "am": "2 ሊትር ውሃ",
+                "om": "Bishaan Liitira 2"
+            },
+            "price": 40,
+            "image": "images/soft-drinks/two-l-water.jpg"
+        },
+        {
+            "name": {
+                "en": "Novida",
+                "am": "ኖቪዳ",
+                "om": "Nooviidaa"
+            },
+            "price": 60,
+            "image": "images/soft-drinks/novida.jpg"
+        },
+        {
+            "name": {
+                "en": "Nigus Malt",
+                "am": "ንጉስ ማልት",
+                "om": "Maaltii Niigus"
+            },
+            "price": 60,
+            "image": "images/soft-drinks/nigus-malt.jpg"
+        }
+    ]
+}

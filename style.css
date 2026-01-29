@@ -1,0 +1,162 @@
+/* Dark theme inspired by black and gold */
+:root {
+    --primary-bg: #000;
+    --secondary-bg: #111;
+    --accent: #FFD700; /* Gold */
+    --text: #FFF;
+    --text-secondary: #CCC;
+    --card-bg: #222;
+    --shadow: rgba(255, 215, 0, 0.2);
+    --back: rgb(63, 237, 89);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--primary-bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: var(--secondary-bg);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 2px 10px var(--shadow);
+}
+
+.logo h1 {
+    color: var(--accent);
+    font-size: 2rem;
+}
+
+.welcome p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+#language-select, #search-input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid var(--accent);
+    background-color: var(--card-bg);
+    color: var(--text);
+    border-radius: 5px;
+}
+
+/* Category Navigation */
+.category-nav {
+    display: flex;
+    overflow-x: auto;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: var(--secondary-bg);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.category-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.category-btn {
+    background-color: var(--card-bg);
+    color: var(--text);
+    border: 1px solid var(--accent);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+}
+
+.category-btn.active, .category-btn:hover {
+    background-color: var(--accent);
+    color: var(--primary-bg);
+}
+
+/* Menu Container */
+#menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* Menu Item Card */
+.menu-item {
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px var(--shadow);
+    transition: transform 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.menu-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    object-position: center center;
+    display: block;
+    background-color: var(--secondary-bg);
+}
+
+.menu-item-content {
+    padding: 1rem;
+}
+
+.menu-item h3 {
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+}
+
+.menu-item p {
+    color: var(--text-secondary);
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
+    .logo h1 {
+        font-size: 2.5rem;
+    }
+
+    .welcome p {
+        font-size: 1.2rem;
+    }
+
+    .controls {
+        max-width: 300px;
+    }
+
+    #menu-container {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}

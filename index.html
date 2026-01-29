@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora Burger & Pizza Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Hora Burger & Pizza</h1>
+        </div>
+        <div class="welcome">
+            <p id="welcome-text">Welcome to our restaurant! Enjoy our delicious menu.</p>
+        </div>
+        <div class="controls">
+            <select id="language-select">
+                <option value="en">English</option>
+                <option value="am">Amharic</option>
+                <option value="om">Afaan Oromo</option>
+            </select>
+            <input type="text" id="search-input" placeholder="Search menu...">
+        </div>
+    </header>
+
+    <nav class="category-nav">
+        <button class="category-btn active" data-category="all">All</button>
+        <button class="category-btn" data-category="breakfast">Breakfast</button>
+        <button class="category-btn" data-category="burger">Burger</button>
+        <button class="category-btn" data-category="pizza">Pizza</button>
+        <button class="category-btn" data-category="sandwich">Sandwich</button>
+        <button class="category-btn" data-category="chicken">Chicken</button>
+        <button class="category-btn" data-category="fish">Fish</button>
+        <button class="category-btn" data-category="rice">Rice</button>
+        <button class="category-btn" data-category="spaghetti">Spaghetti</button>
+        <button class="category-btn" data-category="salad">Salad</button>
+        <button class="category-btn" data-category="hot-drinks">Hot Drinks</button>
+        <button class="category-btn" data-category="juice">Juice</button>
+        <button class="category-btn" data-category="soft-drinks">Soft Drinks</button>
+    </nav>
+
+    <main id="menu-container">
+        <!-- Menu items will be rendered here -->
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
